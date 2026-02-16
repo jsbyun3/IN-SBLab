@@ -64,7 +64,7 @@ We develop novel computational methods for network inference, optimization, and 
 
 ---
 
-![kmu_type30.png](attachment:03c1f4ee-1624-4e1d-acf3-e198e7d57af9:kmu_type30.png)
+![kmu_type30.png]({{ '/assets/img/kmu_type30.png' | relative_url }})
 
 [Department of Biological Sciences](https://bioscience.kmu.ac.kr) | 
 
