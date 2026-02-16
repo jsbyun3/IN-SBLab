@@ -17,12 +17,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -67,7 +67,7 @@ We develop novel computational methods for network inference, optimization, and 
 
 ---
 
-![kmu_type30.png](attachment:03c1f4ee-1624-4e1d-acf3-e198e7d57af9:kmu_type30.png)
+<img src="{{ '/assets/img/kmu_type30.png' | relative_url }}" style="width: 150px; height: auto;" alt="kmu logo">
 
 [Department of Biological Sciences](https://bioscience.kmu.ac.kr) | 
 
