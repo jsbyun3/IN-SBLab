@@ -35,28 +35,31 @@ Using the ***Drosophila* olfactory system** as a model, we explore how the brain
 
 We integrate **computational modeling**, **artificial intelligence**, and **quantitative experiments** to understand how biological systems—from signaling pathways to the *Drosophila* brain—process information and respond to their environment.
 
-👋 We are recruiting! If you are interested in joining, press [here](/2e6aef7eb71680b9815bfaeb20ed8351?pvs=25#2e6aef7eb71680419c88f26d887ba0b6).
+---
 
-## 🔬 What we study
+👋 We are recruiting! If you are interested in joining, press [here](https://jsbyun3.github.io/IN-SBLab/people/).
+
+---
+
+### **🔬 What we study**
 
 **1. Chemosensory Receptor Dynamics**
-
 We investigate how cells robustly encode external stimuli by studying the dynamics of chemosensory receptors. We aim to understand the fundamental limits of sensory encoding at the molecular interface.
 
 **2. Olfactory Perception & Decision-Making**
-
 We investigate how animals make decisions in complex environments. We integrate behavioral experiments and Artificial Intelligence to decode the algorithms of olfactory processing in *Drosophila*.
-**3. Information Processing in Biological Systems**
 
+**3. Information Processing in Biological Systems**
 We use olfaction as a model to uncover universal principles of biological computation. We investigate how biological networks—from biochemical signaling pathways to neural circuits—process information to ensure robust function.
 
 **4. Biological Algorithm Development**
-
 We develop novel computational methods for network inference, optimization, and clustering to interpret high-dimensional biological data.
 
 [👉 Click here to read more about our research](https://www.notion.so/Research-2e6aef7eb716803cb918f4dbbe59da30?pvs=21)
 
-## 📢 News
+---
+
+### **📢 News**
 
 [제목 없음](https://www.notion.so/2e6aef7eb71680b7bf12ddb74ae41fb7?pvs=21)
 
