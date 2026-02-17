@@ -67,7 +67,7 @@ We develop novel computational methods for network inference, optimization, and 
 
 ---
 
-<div style="display: flex; align-items: flex-start; justify-content: flex-start; gap: 40px; margin-bottom: 30px; border-bottom: 1px solid #f0f0f0; padding-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; justify-content: flex-start; gap: 40px; margin-bottom: 30px;">
   
   <img src="{{ '/assets/img/kmu_type30.png' | relative_url }}" style="width: 150px; height: auto; flex-shrink: 0;" alt="kmu logo">
   
@@ -79,7 +79,8 @@ We develop novel computational methods for network inference, optimization, and 
   <div style="flex-shrink: 0; min-width: 120px;">
     <details style="cursor: pointer;">
       <summary style="list-style: none; font-weight: bold; display: flex; align-items: center; gap: 5px;">
-        <span>▶ ⚙️ Site Map</span>
+        <span class="sitemap-arrow" style="transition: transform 0.2s ease-in-out; display: inline-block;">▶</span>
+        <span>⚙️ Site Map</span>
       </summary>
       <ul style="list-style: none; padding-left: 10px; margin: 10px 0 0 0; line-height: 1.8; border-left: 2px solid #eee; font-size: 0.9rem;">
         <li><a href="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?pvs=21">People</a></li>
@@ -101,3 +102,14 @@ We develop novel computational methods for network inference, optimization, and 
     © 2026 Kiri Choi.<br>All rights reserved.
   </div>
 </div>
+
+<style>
+  /* 기본 화살표 제거 */
+  summary::-webkit-details-marker { display: none; }
+  summary { list-style: none; }
+  
+  /* 클릭 시 화살표 회전 */
+  details[open] .sitemap-arrow {
+    transform: rotate(90deg);
+  }
+</style>
