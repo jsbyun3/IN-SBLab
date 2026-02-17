@@ -67,64 +67,42 @@ We develop novel computational methods for network inference, optimization, and 
 
 ---
 
-화살표가 두 개 뜨는 이유는 HTML의 기본 화살표와 우리가 직접 추가한 ▶ 텍스트가 겹쳐서 보이기 때문입니다.
-
-이 현상을 해결하고, 클릭했을 때 모양이 깔끔하게 변하도록 코드를 최종 수정했습니다. 70번 줄부터 103번 줄까지 아래 코드로 다시 교체해 보세요.
-
-🛠️ 화살표 중복 해결 + 하단 스크롤 확보 코드 (70~103번 교체)
-HTML
-<div style="display: flex; align-items: center; justify-content: flex-start; gap: 40px; padding: 20px 0;">
-  
-  <img src="{{ '/assets/img/kmu_type30.png' | relative_url }}" style="width: 140px; height: auto; flex-shrink: 0;" alt="kmu logo">
-  
-  <div style="font-size: 0.9rem; line-height: 1.5; border-right: 1px solid #eee; padding-right: 20px; flex-shrink: 0;">
-    <a href="https://bioscience.kmu.ac.kr/" style="text-decoration: none; color: inherit;">Department of Biological Sciences</a> |<br>
-    <a href="https://www.kmu.ac.kr/" style="text-decoration: none; color: inherit;">Keimyung University</a>
-  </div>
-
-  <div style="flex-shrink: 0;">
-    <details class="final-sitemap" style="cursor: pointer;">
-      <summary style="list-style: none; font-weight: bold; display: flex; align-items: center; gap: 8px;">
-        <span class="arrow-box"></span>
-        <span>⚙️ Site Map</span>
-      </summary>
-      <ul style="list-style: none; padding-left: 15px; margin: 10px 0 0 0; line-height: 2; border-left: 2px solid #f0f0f0; font-size: 0.85rem;">
-        <li><a href="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?pvs=21">People</a></li>
-        <li><a href="https://www.notion.so/Research-2e6aef7eb716803cb918f4dbbe59da30?pvs=21">Research</a></li>
-        <li><a href="https://www.notion.so/Publications-2e6aef7eb71680e28871fdc36e8ab5f0?pvs=21">Publications</a></li>
-        <li><a href="https://www.notion.so/Teaching-2e6aef7eb7168015885cfc1aa190aa11?pvs=21">Teaching</a></li>
-        <li><a href="https://www.notion.so/Software-2e6aef7eb71680e3a10dc2aeee03ac0b?pvs=21">Software</a></li>
-        <li><a href="https://www.notion.so/News-2e6aef7eb71680739767d93511490529?pvs=21">News</a></li>
-        <li><a href="https://www.notion.so/Contact-2e6aef7eb71680d48b06d68c4559d76d?pvs=21">Contact</a></li>
-      </ul>
-    </details>
-  </div>
-
-  <div style="flex-shrink: 0;">
-    <a href="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?pvs=21" style="color: #666; text-decoration: none; font-size: 0.9rem;">Join us</a>
-  </div>
-
-  <div style="color: #888; font-size: 0.8rem; margin-left: auto; flex-shrink: 0; text-align: right;">
-    © 2026 Kiri Choi. All rights reserved.
-  </div>
-</div>
-
-<div style="height: 200px;"></div>
-
-<style>
-  /* 1. 브라우저 기본 화살표 완전히 제거 */
-  .final-sitemap summary::-webkit-details-marker { display: none !important; }
-  .final-sitemap summary { list-style: none !important; }
-
-  /* 2. 가짜 화살표 박스에 모양 넣기 */
-  .final-sitemap:not([open]) .arrow-box::before { content: "▶"; }
-  .final-sitemap[open] .arrow-box::before { content: "▼"; }
-  
-  .arrow-box { 
-    font-size: 0.75rem; 
-    width: 15px; 
-    display: inline-block; 
-    color: #999;
-    user-select: none;
-  }
-</style>
+<div style ="display: flex; align-items: center; justify-content: flex-start; gap: 35px; padding: 15px 0; border-bottom: none;">
+  <img src ="{{ '/assets/img/kmu_type30.png' | relative_url }}"style ="width: 140px; height: auto; flex-shrink: 0;"alt ="kmu logo">
+  
+  <div style ="font-size: 0.9rem; line-height: 1.4; border-right: 1px solid #eee; padding-right: 20px; color: #37352f; flex-shrink: 0;">
+   <a href ="https://bioscience.kmu.ac.kr/"style ="text-decoration: none; color: inherit; border-bottom: 1px solid #ddd;">Department of Biological Sciences </a > |<br >
+   <a href ="https://www.kmu.ac.kr/"style ="text-decoration: none; color: inherit; border-bottom: 1px solid #ddd;">Keimyung University </a >
+  </div >
+  <div style ="flex-shrink: 0;">
+   <details class ="notion-sitemap"style ="cursor: pointer;">
+    <summary style ="list-style: none; font-weight: 500; display: flex; align-items: center; gap: 6px; color: #37352f;">
+     <span class ="nt-arrow">▶</span >
+     <span >⚙️ Site Map </span >
+    </summary >
+    <div style ="position: absolute; margin-top: 10px; background: white; border: 1px solid #efefef; box-shadow: 0 2px 8px rgba(0,0,0,0.05); padding: 12px; border-radius: 4px; z-index: 10;">
+     <ul style ="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.85rem;">
+      <li ><a href ="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?pvs=21">People </a ></li >
+      <li ><a href ="https://www.notion.so/Research-2e6aef7eb716803cb918f4dbbe59da30?pvs=21">Research </a ></li >
+      <li ><a href ="https://www.notion.so/Publications-2e6aef7eb71680e28871fdc36e8ab5f0?pvs=21">Publications </a ></li >
+      <li ><a href ="https://www.notion.so/Teaching-2e6aef7eb7168015885cfc1aa190aa11?pvs=21">Teaching </a ></li >
+      <li ><a href ="https://www.notion.so/Software-2e6aef7eb71680e3a10dc2aeee03ac0b?pvs=21">Software </a ></li >
+      <li ><a href ="https://www.notion.so/News-2e6aef7eb71680739767d93511490529?pvs=21">News </a ></li >
+      <li ><a href ="https://www.notion.so/Contact-2e6aef7eb71680d48b06d68c4559d76d?pvs=21">Contact </a ></li >
+     </ul >
+    </div >
+   </details >
+  </div >
+  <div style ="flex-shrink: 0;">
+   <a href ="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?pvs=21"style ="color: #666; font-size: 0.9rem; text-decoration: none;">Join us </a >
+  </div >
+  <div style ="color: #888; font-size: 0.8rem; margin-left: auto; flex-shrink: 0; text-align: right;">
+   © 2026 Kiri Choi. All rights reserved.
+  </div >
+</div >
+<style >
+  summary::-webkit-details-marker { display : none ; }
+  .notion-sitemap [open ] .nt-arrow::before { content : "▼"; }
+  .notion-sitemap:not ([open ]) .nt-arrow::before { content : "▶"; }
+  .nt-arrow { font-size : 0.7rem ; width : 12px ; display : inline-block ; color : #999 ; }
+</style >
