@@ -67,7 +67,13 @@ We develop novel computational methods for network inference, optimization, and 
 
 ---
 
-<div style="display: flex; align-items: center; justify-content: flex-start; gap: 40px; padding: 20px 0; margin-bottom: 20px;">
+화살표가 두 개 뜨는 이유는 HTML의 기본 화살표와 우리가 직접 추가한 ▶ 텍스트가 겹쳐서 보이기 때문입니다.
+
+이 현상을 해결하고, 클릭했을 때 모양이 깔끔하게 변하도록 코드를 최종 수정했습니다. 70번 줄부터 103번 줄까지 아래 코드로 다시 교체해 보세요.
+
+🛠️ 화살표 중복 해결 + 하단 스크롤 확보 코드 (70~103번 교체)
+HTML
+<div style="display: flex; align-items: center; justify-content: flex-start; gap: 40px; padding: 20px 0;">
   
   <img src="{{ '/assets/img/kmu_type30.png' | relative_url }}" style="width: 140px; height: auto; flex-shrink: 0;" alt="kmu logo">
   
@@ -77,9 +83,9 @@ We develop novel computational methods for network inference, optimization, and 
   </div>
 
   <div style="flex-shrink: 0;">
-    <details class="custom-sitemap" style="cursor: pointer;">
+    <details class="final-sitemap" style="cursor: pointer;">
       <summary style="list-style: none; font-weight: bold; display: flex; align-items: center; gap: 8px;">
-        <span class="arrow-text">▶</span>
+        <span class="arrow-box"></span>
         <span>⚙️ Site Map</span>
       </summary>
       <ul style="list-style: none; padding-left: 15px; margin: 10px 0 0 0; line-height: 2; border-left: 2px solid #f0f0f0; font-size: 0.85rem;">
@@ -103,11 +109,22 @@ We develop novel computational methods for network inference, optimization, and 
   </div>
 </div>
 
-<div style="height: 150px;"></div>
+<div style="height: 200px;"></div>
 
 <style>
-  summary::-webkit-details-marker { display: none; }
-  .custom-sitemap[open] .arrow-text::before { content: "▼"; }
-  .custom-sitemap:not([open]) .arrow-text::before { content: "▶"; }
-  .arrow-text { font-size: 0.75rem; width: 14px; display: inline-block; color: #999; }
+  /* 1. 브라우저 기본 화살표 완전히 제거 */
+  .final-sitemap summary::-webkit-details-marker { display: none !important; }
+  .final-sitemap summary { list-style: none !important; }
+
+  /* 2. 가짜 화살표 박스에 모양 넣기 */
+  .final-sitemap:not([open]) .arrow-box::before { content: "▶"; }
+  .final-sitemap[open] .arrow-box::before { content: "▼"; }
+  
+  .arrow-box { 
+    font-size: 0.75rem; 
+    width: 15px; 
+    display: inline-block; 
+    color: #999;
+    user-select: none;
+  }
 </style>
