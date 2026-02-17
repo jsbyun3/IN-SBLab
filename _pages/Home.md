@@ -80,7 +80,7 @@ We develop novel computational methods for network inference, optimization, and 
     <details style="cursor: pointer;">
       <summary style="list-style: none; font-weight: bold; display: flex; align-items: center; gap: 5px;">
         <span class="sitemap-arrow" style="transition: transform 0.2s ease-in-out; display: inline-block; color: #828282 !important; margin-right: 5px;">▶</span>
-        <span style="color: #828282 !important; display: inline-flex; align-items: center;">⚙️ Site Map</span> 
+        <span style="color: #828282 !important; display: inline-flex; align-items: center; font-weight: 500 !important; text-decoration: none !important;">⚙️ Site Map</span>
       </summary>
       <ul style="list-style: none; padding-left: 10px; margin: 10px 0 0 0; line-height: 1.8; border-left: 2px solid #eee; font-size: 0.9rem;">
         <li><a href="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?pvs=21">People</a></li>
