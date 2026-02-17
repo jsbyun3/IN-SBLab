@@ -79,7 +79,7 @@ We develop novel computational methods for network inference, optimization, and 
   <div style="flex-shrink: 0; min-width: 120px;">
     <details style="cursor: pointer;">
       <summary style="list-style: none; font-weight: bold; display: flex; align-items: center; gap: 5px;">
-        <span class="sitemap-arrow" style="transition: transform 0.2s ease-in-out; display: inline-block; color: #999">▶</span>
+        <span class="sitemap-arrow" style="transition: transform 0.2s ease-in-out; display: inline-block; color: #828282 !important;">▶</span>
         <span>⚙️ Site Map</span>
       </summary>
       <ul style="list-style: none; padding-left: 10px; margin: 10px 0 0 0; line-height: 1.8; border-left: 2px solid #eee; font-size: 0.9rem;">
