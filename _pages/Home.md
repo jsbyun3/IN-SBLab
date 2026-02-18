@@ -27,6 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+
+
+
+
 ### **Integrative Neuro-Systems Biology Group at Keimyung University**
 
 We study the principles of olfaction, from sensory dynamics to olfactory perception and decision-making.
@@ -37,33 +41,45 @@ We integrate **computational modeling**, **artificial intelligence**, and **quan
 
 ---
 
-👋 We are recruiting! If you are interested in joining, press [here](https://jsbyun3.github.io/IN-SBLab/people/).
+
+#### 👋 We are recruiting! If you are interested in joining, press **[here]**(https://jsbyun3.github.io/IN-SBLab/people/).
+
 
 ---
+
 
 ### **🔬 What we study**
 
 **1. Chemosensory Receptor Dynamics**
+
 We investigate how cells robustly encode external stimuli by studying the dynamics of chemosensory receptors. We aim to understand the fundamental limits of sensory encoding at the molecular interface.
 
 **2. Olfactory Perception & Decision-Making**
+
 We investigate how animals make decisions in complex environments. We integrate behavioral experiments and Artificial Intelligence to decode the algorithms of olfactory processing in *Drosophila*.
 
 **3. Information Processing in Biological Systems**
+
 We use olfaction as a model to uncover universal principles of biological computation. We investigate how biological networks—from biochemical signaling pathways to neural circuits—process information to ensure robust function.
 
 **4. Biological Algorithm Development**
+
 We develop novel computational methods for network inference, optimization, and clustering to interpret high-dimensional biological data.
 
-[👉 Click here to read more about our research](https://www.notion.so/Research-2e6aef7eb716803cb918f4dbbe59da30?pvs=21)
+[👉 Click here to read more about our research](https://jsbyun3.github.io/IN-SBLab/research/)
+
+
 
 ---
+
 
 ### **📢 News**
 
 [제목 없음](https://www.notion.so/2e6aef7eb71680b7bf12ddb74ae41fb7?pvs=21)
 
 👉 [Click here to view previous lab news](https://www.notion.so/News-2e6aef7eb71680739767d93511490529?pvs=21)
+
+
 
 ---
 
