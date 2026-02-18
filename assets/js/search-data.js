@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/IN-SBLab/people/";
           },
-        },{id: "nav-news",
-          title: "news",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/IN-SBLab/news/index.html";
-          },
         },{id: "nav-research",
           title: "research",
           description: "A growing collection of your cool projects.",
@@ -50,6 +43,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/IN-SBLab/teaching/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/IN-SBLab/news/index.html";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
