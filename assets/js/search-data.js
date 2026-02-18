@@ -51,21 +51,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/IN-SBLab/news/index.html";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/IN-SBLab/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/IN-SBLab/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/IN-SBLab/contact/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
