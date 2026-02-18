@@ -25,8 +25,27 @@ Before joining Keimyung University, he was awarded **Swartz Foundation Fellowshi
   </div>
 </div>
 <br><br>
-## Junwoo Shin | Undergraduate Student
+## Junwoo Shin  | Undergraduate Student
 <br><br>
 ## Jinseok Byun | Undergraduate Student
 <br><br>
-## Gyumin Lee | undergraduate student
+## Dongheon Lee | Undergraduate Student
+<br><br>
+## Gyumin Lee   | undergraduate student
+
+<br><br>
+
+## New Student Name | Position
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 80px;">
+  <img src="{{ '/assets/img/사진파일명.jpg' | relative_url }}" style="width: 150px; border-radius: 8px; flex-shrink: 0;" alt="Name">
+
+  <div style="line-height: 1.6;">
+    Explain the student's research interests or background here. 
+    You can write multiple sentences just like the professor's profile.
+    <br><br>
+    <div style="font-size: 0.9em;">
+      ✉️ <a href="mailto:email@kmu.ac.kr">Email</a> | 🐙 <a href="https://github.com/username">GitHub</a>
+    </div>
+  </div>
+</div>
