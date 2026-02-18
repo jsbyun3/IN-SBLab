@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/IN-SBLab/news/index.html";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-research",
+          title: "research",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/IN-SBLab/projects/";
+            window.location.href = "/IN-SBLab/research/";
           },
         },{id: "nav-publications",
           title: "publications",
