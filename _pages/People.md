@@ -12,7 +12,7 @@ profiles:
 ## Kiri Choi | Principal Investigator
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px;">
-  <img src="https://www.notion.so/People-2e6aef7eb71680b9815bfaeb20ed8351?source=copy_link#2e9aef7eb7168071ac52fafb5752c204" style="width: 150px; border-radius: 8px; flex-shrink: 0;" alt="Kiri Choi">
+  <img src="{{ '/assets/img/kiri_2_2_low.jpg' | relative_url }}" style="width: 150px; border-radius: 8px; flex-shrink: 0;" alt="Kiri Choi">
 
   <div style="line-height: 1.6;">
     Kiri Choi is an Assistant Professor of the Department of Biological Sciences at Keimyung University. His research focuses on the intersection of biological structure and dynamic function, spanning from biochemical networks to brain circuits. 
@@ -24,7 +24,9 @@ Before joining Keimyung University, he was awarded **Swartz Foundation Fellowshi
     </div>
   </div>
 </div>
-
+<br><br>
 ## Junwoo Shin | Undergraduate Student
-
+<br><br>
 ## Jinseok Byun | Undergraduate Student
+<br><br>
+## Gyumin Lee | undergraduate student
