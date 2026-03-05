@@ -31,7 +31,7 @@ latest_posts:
 
 
 
-### **Integrative Neuro-Systems Biology Group at Keimyung universi **
+### **Integrative Neuro-Systems Biology Group at Keimyung universit **
 
 We study the principles of olfaction, from sensory dynamics to olfactory perception and decision-making.
 
